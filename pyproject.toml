@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hydrostruct"
+version = "0.1.0"
+description = "Structural and hydraulic checks for water-retaining structures"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Sujith Sundar" }]
+
+[tool.setuptools]
+packages = ["hydrostruct"]
